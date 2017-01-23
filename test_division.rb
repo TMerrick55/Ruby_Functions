@@ -17,4 +17,8 @@ class TestMMFunctions < Minitest::Test
 	def test_functions_sixty_divide_by_five_equals_twelve
 		assert_equal(12, divide(60,5))
 	end
+
+	def test_functions_zero_divided_by_six_equals_zero
+		assert_equal(0, divide(0,6))
+	end
 end

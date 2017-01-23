@@ -17,4 +17,8 @@ class TestMMFunctions < Minitest::Test
 	def test_functions_four_multiplied_by_four_equals_sixteen
 		assert_equal(16, multiply(4,4))
 	end
+
+	def test_functions_seven_multiplied_by_zero_equals_zero
+		assert_equal(0,multiply(7,0))
+	end	
 end
