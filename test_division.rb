@@ -13,4 +13,8 @@ class TestMMFunctions < Minitest::Test
 	def test_functions_sixteen_divide_by_two_equals_eight
 		assert_equal(8, divide(16,2))
 	end
+
+	def test_functions_sixty_divide_by_five_equals_twelve
+		assert_equal(12, divide(60,5))
+	end
 end
