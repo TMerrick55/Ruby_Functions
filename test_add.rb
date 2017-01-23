@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require_relative 'add.rb'
 
 class TestMMFunctions < Minitest::Test
-	def test_assert_equal_1_equals_1
+	def test_assert_1_equals_1
 		assert_equal(1,1)
 	end
 
